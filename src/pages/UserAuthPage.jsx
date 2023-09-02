@@ -11,12 +11,12 @@ const UserAuthPage = () => {
             <form>
                <input type="text"></input>
                <input type="text"></input>
-               <input type="submit" value="submit">
+               <input type="submit" value="submit"></input>
             </form>
         </div>
 
         <div className='right-side'>
-
+           <img src="src\images\Girl-Workplace.png"></img>
         </div>
     </div>
   )
