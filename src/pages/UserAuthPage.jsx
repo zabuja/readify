@@ -9,14 +9,14 @@ const UserAuthPage = () => {
             Unlocking a World of Possibilities with Readify App. Get started for free.
 
             <form>
-               <input type="text" id="username" name='username' required></input>
-               <input type="text" id="password" name='password' required></input>
+               <input type="text"></input>
+               <input type="text"></input>
                <input type="submit" value="submit"></input>
             </form>
         </div>
 
         <div className='right-side'>
-
+           <img src="src\images\Girl-Workplace.png"></img>
         </div>
     </div>
   )
