@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,400;0,9..40,600;1,9..40,100&family=Poppins:ital,wght@0,200;0,700;1,300;1,400;1,500&display=swap");
+
+
+body{
+  overflow:hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+a{
+   color: #5F9579;
+   text-decoration: none;
+}
+
+hr {
+  height: 1px;
+  width:10rem;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+
+input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 12px;
+  border-radius: 25px;
+}
+
+input[type="submit"] {
+  background-color: #010101;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: auto;
+}
+
+.container {
+   margin: 1rem;
+  display: flex;
+  max-height: 100%;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box; 
+  padding-bottom: 2rem;
+  
+}
+
+.left-side {
+  align-items: left;
+  margin: .5rem;
+  word-wrap: break-word;
+  /* height: 50 px; */
+  
+}
+
+
+.right-side {
+  background-color: #f6faf4;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.image-girl {
+  align-items: right;
+  height: auto;
+  width: auto;
+}
+
+.form-container {
+  margin-top: 2rem;
+  width: 30em;
+}
+
+
+
+.forgot-pwd {
+    font-family: "Poppins", sans-serif;
+  text-align: right;
+}
+.design-container{
+    margin-top:1rem;
+    display:flex;
+    max-width: fit-content;
+    align-items: justify;
+}
+
+
+.text {
+    padding-right:2rem;
+    padding-left:2rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    width : 50%
+}
+
+.icons {
+  display: flex;
+  text-align: center;
+  margin-left: 3rem;  
+}
+
+.icon {
+  padding: 3rem;
+  height: 40px;
+  width: 3rem;
+  opacity: 0.8;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+
+
+.end-text{
+  padding-left:5.8rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    width : 50%
+}
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin: 10 px;
+    padding: 10 px;
+  }
+  .container {
+    /* margin: 5rem;
+      padding: 4rem; */
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+  }
+  
+  .icons{
+    visibility: visible;
+    display: grid;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 50px;
+  }
+  h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  width:50%;
+  font-size: 14px;
+
+  }
+  .form-container{
+    width: 50%;
+  }
+  .design-container{
+    width:50%;
+    align-items: center;
+  } 
+  .end-text{
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    width: 70%;
+  }
+  .right-side{
+    display: none;
+  }
+}
