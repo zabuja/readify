@@ -3,6 +3,7 @@ import girlSVG from "../images/girlSVG.png";
 import Facebook from "../svgs/Facebook";
 import Twitter from "../svgs/Twitter";
 import Google from "../svgs/Google";
+import { Link } from 'react-router-dom';
 
 const UserAuthPage = () => {
   return (
