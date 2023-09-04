@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,400;0,9..40,600;1,9..40,100&family=Poppins:ital,wght@0,200;0,700;1,300;1,400;1,500&display=swap");
+
+
+.form-container-su{
+    max-width: fit-content;
+}
+
+.containers{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+}
+
+
+.signupimg{
+    align-items: left;
+    height: 800px;
+    width: 800px;
+    
+    /* height: auto;
+    width: auto; */
+    
+}
+.leftside{
+  background-color: #FFF8DC;
+  margin: 0px;
+  border-radius: 25px;
+  
+}
+.rightside{
+    align-items: right;
+    margin: 4rem;
+    word-wrap: break-word;
+}
+
