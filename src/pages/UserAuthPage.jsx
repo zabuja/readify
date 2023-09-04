@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 const UserAuthPage = () => {
   return (
+    
     <div className="container">
       <div className="left-side">
         <h1>Welcome Back!</h1>
@@ -31,7 +32,7 @@ const UserAuthPage = () => {
           ></input>
           <br />
           <div className="forgot-pwd">Forgot Password?</div>
-          <input type="submit" value="submit"></input>
+          <input type="submit" value="login"></input>
         </form>
         <div className="design-container">
           <hr/>
